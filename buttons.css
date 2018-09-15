@@ -1,0 +1,206 @@
+html, body {
+  font-family: 'Roboto', Arial, Helvectia, sans-serif;
+}
+
+h1 {
+  font-weight: 300;
+}
+
+h2 {
+  font-weight: 400;
+}
+
+h3 {
+  font-weight: 400;
+}
+
+h4 {
+  font-weight: 400;
+}
+
+h5 {
+  font-weight: 400;
+}
+
+h6 {
+  font-weight: 500;
+}
+
+.bg--gradient-test {
+  background: rgb(34,193,195);
+  background: linear-gradient(109deg, rgba(34,193,195,1) 0%, rgba(253,45,236,1) 100%);
+}
+
+.bg--gradient-aqua {
+  background: rgb(0,174,255);
+  background: linear-gradient(131deg, rgba(0,174,255,1) 0%, rgba(253,45,236,1) 100%);
+}
+
+.bg--gradient-lava {
+  background: rgb(255,134,0);
+  background: linear-gradient(131deg,   rgba(255,134,0,1) 0%, rgba(253,78,45,1) 100%);
+}
+
+.bg--material {
+  background-color: #546e7a;
+}
+
+.bg--red {
+  background-color: #e74c3c;
+}
+.tx--red {
+  color: #e74c3c;
+}
+.tx--black {
+  color: black;
+}
+.bg--blue {
+  background-color: #00f;
+}
+.tx--blue {
+  color: #00f;
+}
+.bg--green {
+  background-color: #2ecc71;
+}
+.tx--green {
+  color: #2ecc71;
+}
+.bg--white {
+  background-color: #fff;
+}
+.tx--white {
+  color: #fff;
+}
+body {
+  color: #777;
+  text-align: center;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+button[material="true"], a[material="true"] {
+  border: none;
+  padding: 20px;
+  margin: 10px;
+  font-size: 14px;
+  outline: 0;
+  box-shadow: 0px 2px 4px 0px gray;
+  border-radius: 4px;
+  display: inline-block;
+  font-weight: 600;
+}
+button[material="true no-raise"], a[material="true no-raise"] {
+  border: none;
+  padding: 20px;
+  margin: 10px;
+  font-size: 14px;
+  outline: 0;
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 4px;
+  display: inline-block;
+  font-weight: 600;
+}
+
+button[material="true fab"], a[material="true fab"] {
+  border: none;
+  padding: 20px;
+  margin: 10px;
+  font-size: 14px;
+  outline: 0;
+  box-shadow: 0px 2px 4px 0px gray;
+  border-radius: 10000px;
+  display: inline-block;
+  font-weight: 600;
+}
+
+button[material="true fab"].rc, a[material="true fab"].rc  {
+  position: fixed;
+  bottom: 3%;
+  left: 90%;
+}
+
+.material-icons.white {
+  color: white;
+}
+
+button[material="true no-raise"]:hover, a[material="true no-raise"]:hover {
+  transition: background-color 0.3s;
+  background-color: #eeeeee;
+}
+
+[ripple] {
+  position: relative;
+  overflow: hidden;
+}
+[ripple] .ripple--container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+[ripple] .ripple--container span {
+  transform: scale(0);
+  border-radius: 100%;
+  position: absolute;
+  opacity: 0.75;
+  background-color: #fff;
+  animation: ripple 900ms;
+}
+@-moz-keyframes ripple {
+  to {
+    opacity: 0;
+    transform: scale(2);
+  }
+}
+@-webkit-keyframes ripple {
+  to {
+    opacity: 0;
+    transform: scale(2);
+  }
+}
+@-o-keyframes ripple {
+  to {
+    opacity: 0;
+    transform: scale(2);
+  }
+}
+@keyframes ripple {
+  to {
+    opacity: 0;
+    transform: scale(2);
+  }
+}
+
+.bg--gradient-berry {
+  background: rgb(0,196,255);
+background: linear-gradient(131deg, rgba(0,196,255,1) 0%, rgba(57,45,253,1) 100%);
+}
+
+.bg--gradient-grape {
+  background: rgb(254,0,255);
+background: linear-gradient(131deg, rgba(254,0,255,1) 0%, rgba(183,45,253,1) 100%);
+}
+
+.bg--gradient-lettuce {
+  background: rgb(0,255,19);
+background: linear-gradient(131deg, rgba(0,255,19,1) 0%, rgba(45,253,151,1) 100%);
+}
+
+.bg--gradient-tomato {
+  background: rgb(255,0,0);
+background: linear-gradient(131deg, rgba(255,0,0,1) 0%, rgba(88,13,13,1) 100%);
+}
+
+.bg--gradient-orange {
+  background: rgb(255,134,0);
+  background: linear-gradient(131deg,   rgba(255,134,0,1) 0%, rgba(253,78,45,1) 100%);
+}
+
+.bg--gradient-pineapple {
+  background: rgb(255,254,0);
+background: linear-gradient(131deg, rgba(255,254,0,1) 0%, rgba(166,158,19,1) 100%);
+}
+
+
